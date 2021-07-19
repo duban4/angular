@@ -3,7 +3,6 @@
 }
 
 .titulo-licitaciones{
-
     text-align: center;
     font-family: monospace;
     margin-top: 1%;
@@ -11,7 +10,7 @@
 
 .fa-edit{
     color:rgb(89, 16, 185);
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .fa-trash-alt{
@@ -22,7 +21,30 @@
 .fa-eye{
     cursor: pointer;
 }
-.icon{
-    border:2px solid black;
-    border-radius: 40%;
+
+.encabezado{
+    height: 50px;
 }
+
+.titulo-encabezado{
+    font-weight: bold;
+    font-family: arial;
+}
+
+.td-encabezado{
+    border-bottom: none; 
+}
+
+.fa-download{
+    color:rgb(95, 238, 12);
+    cursor: pointer; 
+}
+
+.contenedor-titulo{
+    margin-top: 5%;
+}
+ 
+
+
+
+
