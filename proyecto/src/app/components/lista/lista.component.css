@@ -1,0 +1,28 @@
+.hr-licitaciones{
+    background-color:transparent
+}
+
+.titulo-licitaciones{
+
+    text-align: center;
+    font-family: monospace;
+    margin-top: 1%;
+}
+
+.fa-edit{
+    color:rgb(89, 16, 185);
+    cursor: pointer;
+}
+
+.fa-trash-alt{
+    color: red;
+    cursor: pointer;
+}
+
+.fa-eye{
+    cursor: pointer;
+}
+.icon{
+    border:2px solid black;
+    border-radius: 40%;
+}
