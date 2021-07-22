@@ -1,0 +1,12 @@
+auto close tag
+autp rename tag
+beautify
+live server
+ident-rainbow
+color identifiers
+Bracket Pair Colorizer 2
+Material Icon Theme
+PRETTIER
+Color Picker
+Path IntelliSense
+ESLint

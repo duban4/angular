@@ -21,85 +21,47 @@
 
 <hr class="hr-licitaciones">
 
-<div class="encabezado container">
-
-    <div class="row">
-
-            <div class="col-lg-12 col-md-12"> 
-
-                <table  class=" table ">
-                    <tbody  >
-                        <tr class=" form-control">
-                            
-                            <td class="td-encabezado " >
-                               <div class="contenedor-titulo">
-                                <h6 class="titulo-encabezado">Número-Proceso</h6>
-                               </div> 
-                            </td>
-                    
-                            <td class="td-encabezado " >
-                                <div class="contenedor-titulo">
-                                    <h6 class="titulo-encabezado">Tipo</h6>
-                                </div>
-                                
-                            </td>
-                            <td class="td-encabezado " >
-
-                                <div>
-                                    <h6 class="titulo-encabezado">Estado</h6>
-                                </div>
-                                
-                            </td>
-                            <td class="td-encabezado  " >
-
-                                <div>
-                                    <h6 class="titulo-encabezado">Entidad</h6>
-                                </div>
-                               
-                            </td>
-                            <td class="td-encabezado  " > 
-
-                                <div>
-                                    <h6 class="titulo-encabezado">Objeto</h6>
-                                </div>
-                                
-                            </td>
-                            <td class="td-encabezado " >
-                                <div>
-                                    <h6 class="titulo-encabezado ">Lugar</h6>
-                                </div>
-                                
-                            </td>
-                            <td class="td-encabezado " >
-                                <div>
-                                    <h6 class="titulo-encabezado " >Valor</h6>
-                                </div>
-                                
-                            </td>
-                            <td class="td-encabezado " >
-                                <div>
-                                    <h6 class="titulo-encabezado ">Fecha</h6>
-                                </div>
-                                
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-    </div>
-
-</div>
-
-<hr class="hr-licitaciones">
-
-<div class="container ">
+<div class="contenedor-tabla card">
 
     <div class="row">
 
         <div class="col-lg-12 ">
             
             <table class="table ">
+                <thead class="card" >
+                    <tr>
+                        <div>
+                            <input type="button">
+                        </div>
+                    </tr>
+                    <tr>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado">Número-Proceso</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado">Tipo</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado">Estado</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado">Entidad</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado">Objeto</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado ">Lugar</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado " >Valor</h6>
+                        </th>
+                        <th class="linea">
+                            <h6 class="titulo-encabezado ">Fecha</h6>
+                        </th>
+                        
+                    </tr>
+                </thead>
                 <tbody >
                     <tr class="form-control">
                         <td>
@@ -126,29 +88,34 @@
                         <td>
                             <div >32132132321321</div>
                         </td>
-                        <td> 
-                            <div id="prueba1" class="prueba1 prueba">
-                                <i class="fas fa-download"></i>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="prueba">
+                       
+                        <td class="contenedor-iconos "> 
+
+                            <button data-toggle="tooltip" data-placement="top" title="" class="btn btn-default sibtn accion btn-icon  waves-effect waves-float" data-btn="link">
+                            <i class="fas fa-download"></i>
+                                
+                                <div class="btn-loader hide"></div>
+                            </button>
+                            <button data-toggle="tooltip" data-placement="top" title="" class="btn btn-default sibtn accion btn-icon  waves-effect waves-float" data-btn="link">
                                 <i  class="far fa-eye"></i>
-                            </div>
-                          
-                        </td>
-                        <td> 
-                            <div class="prueba">
-                                <i class="far fa-edit"></i>
-                            </div>
+                                    
+                                    <div class="btn-loader hide"></div>
+                            </button>
+                            <button data-toggle="tooltip" data-placement="top" title="" class="btn btn-default sibtn accion btn-icon  waves-effect waves-float" data-btn="link">
+                                <i class="far fa-edit text-info"></i>
+                                    
+                                    <div class="btn-loader hide"></div>
+                            </button>
+                            <button data-toggle="tooltip" data-placement="top" title="" class="btn btn-default sibtn accion btn-icon  waves-effect waves-float" data-btn="link">
+                                <i class="far fa-trash-alt text-danger"></i>
+                                    
+                                    <div class="btn-loader hide"></div>
+                            </button>
+                
+                            
                             
                         </td>
-                        <td>
-                            <div class="prueba">
-                                <i class="far fa-trash-alt"></i>
-                            </div>
-                           
-                        </td>
+                       
                     </tr>
                 </tbody>
             </table>
@@ -159,4 +126,3 @@
 
 </div>
 
-<script>document.getElementById('prueba1').classList.add('prueba1')</script>

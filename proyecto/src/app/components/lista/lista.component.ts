@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaComponent implements OnInit {
 
+  listData:any[]=[];
+
   constructor() { }
 
   ngOnInit(): void {
