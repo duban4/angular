@@ -27,13 +27,11 @@ text-align: center;
 }
 
 .fa-edit{
-    color:rgb(89, 16, 185);
     cursor: pointer; 
     position: absolute;
 }
 
 .fa-trash-alt{
-    color: red;
     cursor: pointer;
     position: absolute;
 }
@@ -69,24 +67,35 @@ text-align: center;
 
 /*listo y confirmado hasta aca todo correcto--*/
 
-.contenedor-botones{
-    display:inline-block;
-}
 .botones{
-    width: 3%;
-    height: 50%;
+    display: flex;
+}
+.contenedor-botones{
+    width: 17%;
     padding: 0%;
     margin: 0%;
-    padding-top: 5%;
+    padding-left: 0.5%;
+    padding-top: 25%;
+    position: relative;
 }
-.btn-icon {
+
+.btn-d {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     border-radius: 50%;
-    width: 3%;
+    width: 90%;
     height: 3%;
     line-height: 42px;
     height: 40px;
     text-align: center;
 }
+
+.far {
+    position: absolute;
+    
+  }
+
 
 
 
