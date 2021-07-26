@@ -1,12 +1,16 @@
-auto close tag
-autp rename tag
-beautify
+auto close tag     cierra las etiquetas
+auto rename tag    ambas etiquetas
+beautify          
 live server
 ident-rainbow
+color highlight
 color identifiers
-Bracket Pair Colorizer 2
+Bracket Pair Colorizer 2 o rainbow brackets
 Material Icon Theme
 PRETTIER
 Color Picker
 Path IntelliSense
 ESLint
+css peek
+auto-save on window change
+browser preview

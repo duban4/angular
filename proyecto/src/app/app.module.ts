@@ -1,16 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+
+//rutas
+
 import { AppComponent } from './app.component';
-import { ListaComponent } from './components/lista/lista.component';
+import { AppRoutingModule } from './components/app-routing/app-routing.module';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ListaComponent
+    AppComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

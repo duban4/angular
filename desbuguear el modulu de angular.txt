@@ -1,0 +1,30 @@
+desbuguear el modulo de angular
+1.npm install --save-dev @angular-devkit/build-angular
+
+comando para instalar gestor de base de datos
+2.npm i typeorm -g
+
+comando para configurar servidor express gertor de base de datos y proyecto  
+3.typeorm init --name login --database sqlserver --express
+
+SQL SERVER npm install mssql --save
+
+comando para instalr cors aceptar todas las peticiones de los clientes
+4.npm i cors
+
+comando para instalar jsonwebtoken para seguridad
+5.npm i jsonwebtoken
+
+comando para instalar bcryptjs para encryptar la contraseña de los clientes
+6. npm i bcryptjs 
+
+comando para validar campos en base de datos
+7. npm i class-validator
+
+comando para instalar las dependencias instaladas anteriormente
+
+8.npm i -D ts-node-dev typescript @types/bcryptjs @types/cors @types/jsonwebtoken @types/express @types/node
+
+comando para instalar helmet seguridad
+
+9.npm i helmet

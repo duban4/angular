@@ -1,0 +1,34 @@
+
+.contenedor-menu{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.titulo{
+    text-align: center;
+}
+
+.contenedor-accesos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.acceso:hover{
+    cursor: pointer;
+    background-color: rgb(234, 237, 240);
+}
+
+.fa-journal-whills{
+
+    color: rgb(49, 219, 219);
+}
+
+.icono{
+    font-size: 500%;
+}
+
+.menu{
+    background-color: transparent;
+}
