@@ -1,0 +1,36 @@
+.contenedor-documento{
+    width: 95%;
+    padding-top: 3%;
+ }
+
+ .body-documento{
+    margin: 0%;
+    padding: 0%;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+ .hr-licitaciones{
+    background-color:transparent;
+    width: 20%;
+    text-align: center;
+    
+    align-items: center;
+}
+
+.titulo-documento{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 1%;
+}
+
+.icono{
+    font-size: 200%;
+}
+
+.fa-plus-circle{
+
+    color: rgb(30, 185, 224);
+}
